@@ -1,0 +1,11 @@
+mean  (PDF, dataset)                                         
+-7.52517434e-01  0.00000000e+00                              
+rms   (PDF, dataset)                                         
+1.47972364e+00  0.00000000e+00                               
+skew  (PDF, dataset)                                         
+-2.17657266e-01  0.00000000e+00                              
+kurt  (PDF, dataset)                                         
+1.11412540e-01  0.00000000e+00                               
+sigma (PDF, dataset)                                         
+1.27408773e+00  0.00000000e+00                               
+                                                             

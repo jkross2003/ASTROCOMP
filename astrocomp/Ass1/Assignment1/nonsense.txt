@@ -1,0 +1,3 @@
+This is such a nonsense!
+This_is_such_a_nonsense!
+This is not nonsense! It's Bash

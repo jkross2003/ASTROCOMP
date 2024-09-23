@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Christoph Federrath</title>
+    <!--CSS style sheet-->
+    <link type="text/css" rel="stylesheet" href="anu.css">
+    <!--for GitHub/Bitbucket logo-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css">
+    <!--favicon-->
+    <link rel="icon" href="favicon.ico">
+  </head>
+
+  <body>
+
+    <!-- Site navigation menu (setup by python script) -->
+    <ul class="navbar">
+      <a href="http://www.anu.edu.au"><img src="anu_logo.png" style="background-color:#404040; padding:5px 5px" alt="ANU" width="130"></a>
+
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="index.html">Home</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="people.html">Group</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="movies.html">Movies</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="codes/turbgen/turbgen.html">Codes</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="research.html">Research</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="teaching.html">Teaching</a></li>
+      <li>&nbsp;&nbsp;&rarr;&nbsp;<a href="https://ui.adsabs.harvard.edu/search/p_=0&q=database%3Aastronomy%20OR%20database%3Aphysics%20author%3A(%22Federrath%2CC%22)%20pubdate%3A%5B2008-01%20TO%209999-12%5D&rows=25&sort=citation_count%20desc%2C%20bibcode%20desc&start=0" target="_blank">Publications</a></li>
+
+      <h4 style="margin-bottom:0.5em">Contact Info</h4>
+      <div style="font-size: 80%">
+        Prof. Christoph Federrath<br>
+        Australian National University<br>
+        <a href="mailto:christoph.federrath@anu.edu.au">christoph.federrath@anu.edu.au</a><br>
+        <i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+61-2-6125-0217">+61 (0)2 6125 0217</a><br>
+        <i class="fa-brands fa-orcid"></i>&nbsp;<a href="https://orcid.org/0000-0002-0706-2306">0000-0002-0706-2306</a><br>
+        <i class="fa-brands fa-github"></i>&nbsp;<a href="https://github.com/chfeder">GitHub</a>
+        <i class="fa-brands fa-bitbucket"></i>&nbsp;<a href="https://bitbucket.org/chfeder">Bitbucket</a>
+      </div>
+
+      <br>
+
+      <button class="btn-toggle-dark-mode">&#127763; Toggle Dark-Mode</button>
+      <script src="dark_mode_toggle.js"></script>
+    </ul>
+
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr valign="top">
+        <td valign="top">
+          <h2>Professor Christoph Federrath</h2>
+          Welcome. Christoph Federrath is a professor, faculty member, and associate director 
+          at the <a href="http://rsaa.anu.edu.au/">Research School of Astronomy and Astrophysics</a>
+          of the <a href="http://www.anu.edu.au/">Australian National University</a>.
+          He previously was an Australian Research Council Future Fellow, Stromlo Fellow, and held postdoctoral fellowships at the Monash
+          Centre for Astrophysics in Melbourne, the Ecole Normale Superieure de Lyon, and the Institute for Theoretical Astrophysics in
+          Heidelberg. He studied physics at the University of Wuerzburg from 2001 to 2007 and received a Ph.D. (Dr. rer. nat.) from the
+          University of Heidelberg in 2010.
+          <h3>Contact</h3>
+          Prof. Christoph Federrath<br>
+          Research School of Astronomy and Astrophysics<br>
+          The Australian National University<br>
+          Cotter Road, Canberra, ACT 2611, Australia<br>
+          Email: <a href="mailto:christoph.federrath@anu.edu.au">christoph.federrath@anu.edu.au</a><br>
+          Phone: +61 (0)2 6125 0217<br>
+          Fax: +61 (0)2 6125 0233<br>
+          Office: Woolley building (W32)<br>
+        </td>
+        <td><pre>&nbsp;&nbsp;</pre></td>
+        <td align="right" valign="top">
+          <br>
+          <div class="video-container" onclick="this.querySelector('video').play()">
+            <video poster="cf.png", width="150" muted playsinline id="video">
+              <source src='cf.mp4' type="video/mp4">
+            </video>
+            <div class="caption" id="caption">
+              Click image to see a compressively-driven turbulent Federrath...
+            </div>
+            <script>
+              const video = document.querySelector('#video');
+            
+              video.addEventListener('ended', function() {
+                video.currentTime = 0;
+                video.pause();
+              });
+            </script>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h3>Research</h3>
+    Federrath's research focuses on understanding the formation of stars in the Universe. Almost everything we know about the Universe comes from looking at the stars. The formation of stars controls galaxy evolution and sets the initial conditions for planet formation. To advance our understanding of star formation, Federrath develops theoretical models and supercomputer simulations of molecular clouds, the birthplaces of stars. This involves the physics of turbulence, gravity, magnetic fields, radiation, stellar feedback and chemical evolution. An essential part of this work is to compare supercomputer simulations performed on thousands of computer cores to real observations in galactic clouds. The ultimate goal of Federrath's research is to establish a model that combines all the relevant physics and chemistry to enable self-consistent comparisons with observations and to provide powerful predictions for how galaxies, stars and planets form in the Universe.
+
+    <h3>Group</h3>
+    Current and former <a href="people.html">group members</a>.
+
+    <h3>Projects</h3>
+    Research project ideas are listed <a href="research.html">here</a>.
+
+    <h3>Teaching</h3>
+    Please refer to <a href="teaching.html">this page</a> for current and previous courses.
+
+    <h3>Featured publications</h3>
+    <ul>
+      <li><a href="pubs/nif_dynamo/nif_dynamo.html">
+      Hew, J. K. J. & Federrath, C., 2023, Monthly Notices of the Royal Astronomical Society, 520, 6268
+      </a></li>
+      <li><a href="pubs/vettam/vettam.html">
+      Menon, S. H., Federrath, C., et al., 2022, Monthly Notices of the Royal Astronomical Society, 512, 401
+      </a></li>
+      <li><a href="pubs/radfb_jets/radfb_jets.html">
+      Mathew, S. S., Federrath, C., 2021, Monthly Notices of the Royal Astronomical Society, 507, 2448
+      </a></li>
+      <li><a href="pubs/sonic_scale/sonic_scale.html">
+      Federrath, C., Klessen, R. S., Iapichino, L., Beattie, J. R., 2021, Nature Astronomy, 5, 365
+      </a></li>
+      <li><a href="pubs/iaus345/iaus345.html">
+      Federrath, C., 2020, IAU Symposium 345, 43
+      </a></li>
+      <li><a href="pubs/first_stars/first_stars.html">
+      Sharda, P., Federrath, C., Krumholz, M.R., 2020, Monthly Notices of the Royal Astronomical Society, 497, 336
+      </a></li>
+      <li><a href="pubs/stratified_turbulence/stratified_turbulence.html">
+      Mohapatra, R., Federrath, C., Sharma, P., 2020, Monthly Notices of the Royal Astronomical Society, 493, 5838
+      </a></li>
+      <li><a href="pubs/beattie_anisotropy/beattie_anisotropy.html">
+      Beattie, J. R., Federrath, C., 2020, Monthly Notices of the Royal Astronomical Society, 492, 668
+      </a></li>
+      <li><a href="pubs/binary_turb/binary_turb.html">
+      Kuruwita, R., Federrath, C., 2019, Monthly Notices of the Royal Astronomical Society, 486, 3647
+      </a></li>
+      <li><a href="pubs/aztec_sharda/aztec_sharda.html">
+      Sharda, P., da Cunha, E., Federrath, C., et al., 2019, Monthly Notices of the Royal Astronomical Society, 487, 4305
+      </a></li>
+      <li><a href="pubs/turb_b_jets/turb_b_jets.html">
+      Gerrard, I., Federrath, C., Kuruwita, R., 2019, Monthly Notices of the Royal Astronomical Society, 485, 5532
+      </a></li>
+      <li><a href="pubs/tritsis_hi/tritsis_hi.html">
+      Tritsis, A., Federrath, C., Pavlidou, V., 2019, The Astrophysical Journal, 873, 38
+      </a></li>
+      <li><a href="pubs/physics_today/physics_today.html">
+      Federrath, C., 2018, Physics Today 71, 6, 38
+      </a></li>
+      <li><a href="pubs/ancient_spiral/ancient_spiral.html">
+      Yuan, T., et al., 2017, The Astrophysical Journal, 850, 61
+      </a></li>
+      <li><a href="pubs/shima_pasj/shima_pasj.html">
+      Shima, K., Tasker, E. J., Federrath, C., Habe, A., 2017, Publications of the Astronomical Society of Japan, 70, S54
+      </a></li>
+      <li><a href="pubs/binary_jets/binary_jets.html">
+      Kuruwita, R. L., Federrath, C., Ireland, M. J., 2017, Monthly Notices of the Royal Astronomical Society, 470, 1626
+      </a></li>
+      <li><a href="pubs/sami_sfr_vdisp/sami_sfr_vdisp.html">
+      Zhou, L., Federrath, C., Yuan, T., et al., 2017, Monthly Notices of the Royal Astronomical Society, 470, 4573
+      </a></li>
+      <li><a href="pubs/bh_transition/bh_transition.html">
+      Taylor, P., Federrath, C., Kobayashi, C., 2017, Monthly Notices of the Royal Astronomical Society, 469, 4249
+      </a></li>
+      <li><a href="pubs/sami_gas/sami_gas.html">
+      Federrath, C., Salim, D. M., Medling, A. M., et al., 2017, Monthly Notices of the Royal Astronomical Society, 468, 3965
+      </a></li>
+      <li><a href="pubs/turb_driv_gal/turb_driv_gal.html">
+      Jin, K., Salim, D. M., Federrath, et al., 2017, Monthly Notices of the Royal Astronomical Society, 469, 383
+      </a></li>
+      <li><a href="pubs/extreme_scaling/extreme_scaling.html">
+      Federrath, C., Klessen, R. S., Iapichino, L., Hammer, N. J., 2016, Leibniz Supercomputing Centre (LRZ) Status Reports Book
+      </a></li>
+      <li><a href="pubs/brick/brick.html">
+      Federrath, C., Rathborne, J. M., Longmore, S. N., et al., 2016, The Astrophysical Journal, 832, 143
+      </a></li>
+      <li><a href="pubs/jpp/jpp.html">
+      Federrath, C., 2016, Journal of Plasma Physics, 82, 535820601
+      </a></li>
+      <li><a href="pubs/filaments/filaments.html">
+      Federrath, C., 2016, Monthly Notices of the Royal Astronomical Society, 457, 375
+      </a></li>
+      <li><a href="pubs/ineff_sf/ineff_sf.html">
+      Federrath, C., 2015, Monthly Notices of the Royal Astronomical Society, 450, 4035
+      </a></li>
+      <li><a href="pubs/universal_sf_law/universal_sf_law.html">
+      Salim, D. M., Federrath, C., Kewley, L. J., 2015, The Astrophysical Journal Letters, 806, L36
+      </a></li>
+      <li><a href="pubs/polytropic/polytropic.html">
+      Federrath, C., &amp; Banerjee, S., 2015, Monthly Notices of the Royal Astronomical Society, 448, 3297
+      </a></li>
+      <li><a href="pubs/pdf_noniso/pdf_noniso.html">
+      Nolan, C. A., Federrath, C., Sutherland, R. S., 2015, Monthly Notices of the Royal Astronomical Society, 451, 1380
+      </a></li>
+      <li><a href="pubs/outflow_model/outflow_model.html">
+      Federrath, C., Schr&ouml;n, M., Banerjee, R., Klessen, R. S., 2014, The Astrophysical Journal, 790, 128
+      </a></li>
+      <li><a href="pubs/dynamo_pm/dynamo_pm.html">
+      Federrath, C., Schober, J., Bovino, S., Schleicher, D. R. G., 2014, The Astrophysical Journal Letters, 797, L19
+      </a></li>
+      <li><a href="pubs/pdf_science/pdf_science.html">
+      Kainulainen, J., Federrath, C., Henning, T., 2014, Science, 344, 6180, 183
+      </a></li>
+      <li><a href="pubs/supersonic/supersonic.html">
+      Federrath, C., 2013, Monthly Notices of the Royal Astronomical Society, 436, 1245
+      </a></li>
+      <li><a href="pubs/sflaw/sflaw.html">
+      Federrath, C., 2013, Monthly Notices of the Royal Astronomical Society, 436, 3167
+      </a></li>
+      <li><a href="pubs/sfe/sfe.html">
+      Federrath, C. &amp; Klessen, R. S., 2013, The Astrophysical Journal, 763, 51
+      </a></li>
+      <li><a href="pubs/sfr/sfr.html">
+      Federrath, C. &amp; Klessen, R. S., 2012, The Astrophysical Journal, 761, 156
+      </a></li>
+    </ul>
+
+    <hr>
+    <address style="font-size: 80%">&copy; C. Federrath 2024</address>
+
+  </body>
+
+</html>
