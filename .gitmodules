@@ -1,0 +1,6 @@
+[submodule "astr4004_2024_week7"]
+	path = astr4004_2024_week7
+	url = https://github.com/svenbuder/astr4004_2024_week7.git
+[submodule "astr4004_2024_week8"]
+	path = astr4004_2024_week8
+	url = https://github.com/svenbuder/astr4004_2024_week8.git
